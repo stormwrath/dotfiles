@@ -18,7 +18,7 @@ alias urlencode='python3 -c "import sys;from urllib import request as rq;print(r
 alias urldecode='python3 -c "import sys;from urllib import request as rq;print(rq.unquote(sys.argv[1]))"'
 set -o vi
 
-source ~/.config/fzf.bash
+source ~/.config/fzf/fzf.bash
 eval "$(direnv hook bash)"
 eval "$(zoxide init bash)"
 

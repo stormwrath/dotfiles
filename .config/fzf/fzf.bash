@@ -21,7 +21,7 @@ export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always {}' --heig
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --color=fg:#d8dee9,bg:#2e3440,hl:#88c0d0"
 
 # Use ~~ as the trigger sequence instead of the default **
-export FZF_COMPLETION_TRIGGER='\'
+export FZF_COMPLETION_TRIGGER='  '
 
 # Options to fzf command
 export FZF_COMPLETION_OPTS='--border --info=inline'
