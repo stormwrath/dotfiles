@@ -3,4 +3,4 @@ LINK `stow -v .`
 UNLINK `stow -Dv .`
 
 # PACKGE
-![pkglist.txt](./pkglist.txt)
+![[pkglist.txt]]
