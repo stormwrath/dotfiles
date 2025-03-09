@@ -19,8 +19,8 @@ alias urldecode='python3 -c "import sys;from urllib import request as rq;print(r
 set -o vi
 
 source ~/.config/fzf/fzf.bash
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 eval "$(direnv hook bash)"
 eval "$(zoxide init bash)"
 
 
-[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
